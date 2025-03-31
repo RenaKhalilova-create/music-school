@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыкальная школа</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="title" data-key="title">Музыкальная школа</h1>
+        <nav>
+            <ul>
+                <li><a href="#about" data-key="about">О нас</a></li>
+                <li><a href="#teachers" data-key="teachers">Преподаватели</a></li>
+                <li><a href="#courses" data-key="courses">Курсы</a></li>
+                <li><a href="#pricing" data-key="pricing">Цены</a></li>
+                <li><a href="#contacts" data-key="contacts">Контакты</a></li>
+            </ul>
+        </nav>
+        <button onclick="switchLanguage()" data-key="languageButton">🌍 EN</button>
+    </header>
+
+    <main>
+        <!-- О нас -->
+        <section id="about">
+            <h2 data-key="about">О школе</h2>
+            <p data-key="aboutText">Информация о школе и её создателе...</p>
+        </section>
+
+        <!-- Курсы -->
+        <section id="courses">
+            <h2 data-key="courses">Наши уроки</h2>
+            <p data-key="coursesText">Мы предлагаем следующие уроки: пиано, вокал и другие...</p>
+        </section>
+
+        <!-- Цены -->
+        <section id="pricing">
+            <h2 data-key="pricing">Цены</h2>
+            <p data-key="lesson1">Пробный урок: 300 AED</p>
+            <p data-key="lesson2">8 уроков: 2000 AED</p>
+            <p data-key="lesson3">12 уроков: 3000 AED</p>
+            <p data-key="lesson4">24 урока: 6000 AED (плюс 2 бесплатных)</p>
+        </section>
+
+        <!-- Контакты -->
+        <section id="contacts">
+            <h2 data-key="contacts">Контакты</h2>
+            <button data-key="button">Связаться с нами</button>
+        </section>
+    </main>
+
+    <footer>
+        <p data-key="footer">© 2025 Музыкальная школа. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+
+
